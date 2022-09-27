@@ -51,10 +51,7 @@ body{
 }
 
 .header-wrapper{
-	padding-top: 38px;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
+
 }
 
 .header-item{
@@ -68,7 +65,10 @@ body{
 
 .header-list{
 	display: flex;
-	padding-top: 0;
+	padding-top: 28px;
+	justify-content: center;
+
+	list-style-type: none;
 }
 
 .header-logo{
@@ -110,5 +110,4 @@ body{
 	line-height: 26px;
 	color: white;
 	text-decoration: none;
-
 }
