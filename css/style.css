@@ -1,0 +1,77 @@
+/* orbitron-regular - latin */
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/orbitron-v25-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/orbitron-v25-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* orbitron-700 - latin */
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/orbitron-v25-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/orbitron-v25-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html{
+	box-sizing: border-box;
+}
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+
+body{
+	font-family: 'Orbitron';
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: normal;
+	color: #000;
+}
+
+.wrapper{
+	max-width: 1320px;
+	margin: 0 auto;
+}
+
+.header{
+	background-color: #000;
+}
+
+.header-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.btn a{
+	border: 1px solid #FFFFFF;
+	color: #fff;
+	text-decoration: none;
+	padding: 16px 31px;
+	font-size: 18px;
+	margin-left: 40.61 px;
+}
+
+.badge{
+	background-color: #fff;
+	color: #141820;
+	padding: 6px 6px;
+	text-align: center;
+	font-size: 11px;
+	border-radius: 9px;
+	line-height: 8px;
+	}
+
+	.header-list{
+		display: flex; 
+		flex-wrap: wrap;
+	}
+
+	.header-item{
+		margin-right: 60px;
+	}
