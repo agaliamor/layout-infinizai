@@ -64,11 +64,13 @@ body{
 	text-decoration: none;
 	padding: 16px 31px;
 	font-size: 18px;
-	margin-left:360px;
+	position: absolute;
+	top: 20px;
+	right: 60px;
 }
 
-.busket{
-	margin-left: 319.39px;
+.basket{
+	
 }
 
 .badge{
@@ -84,6 +86,7 @@ body{
 .header-list{
 	display: flex; 
 	flex-wrap: wrap;
+	text-align: center;
 }
 
 .header-item{
