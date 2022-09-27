@@ -27,7 +27,7 @@ body{
 	background-image: linear-gradient(
 		to right,
 		#000 0%,
-		#000 60%,
+		#000 55.97%,
 		#57B8FF 50%,
 		#57B8FF 100%
 	);
@@ -43,7 +43,6 @@ body{
 }
 
 .wrapper{
-	max-width: 1320px;
 	margin: 0 auto;
 }
 
@@ -58,6 +57,26 @@ body{
 	align-items: center;
 }
 
+.header-item{
+	margin-right: 60px;
+	
+}
+
+.header-item:last-child{
+	margin-right: 0;
+}
+
+.header-list{
+	display: flex;
+	padding-top: 0;
+}
+
+.header-logo{
+	position: absolute;
+	top: 31.19px;
+	left: 61.26px;
+}
+
 .btn a{
 	border: 1px solid #FFFFFF;
 	color: #fff;
@@ -70,7 +89,9 @@ body{
 }
 
 .basket{
-	
+	position: absolute;
+	top: 35px;
+	right: 278.61px;	
 }
 
 .badge{
@@ -83,18 +104,6 @@ body{
 	line-height: 8px;
 }
 
-.header-list{
-	display: flex; 
-	flex-wrap: wrap;
-	text-align: center;
-}
-
-.header-item{
-	margin-right: 60px;
-}
-.header-item:last-child{
-	margin-right: 0;
-}
 
 .header-link{
 	font-size: 16px;
