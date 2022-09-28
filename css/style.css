@@ -42,6 +42,7 @@ body{
 }
 
 .wrapper{
+	max-width: 1320px;
 	margin: 0 auto;
 }
 
@@ -132,7 +133,7 @@ body{
 	transform: rotate(180deg);
 	font-size: 11px;
 	position: absolute;
-	left: -40px;
+	left: 100px;
 	top: 319px;
   justify-content:space-around;
   flex-wrap:wrap;
@@ -160,5 +161,92 @@ body{
 /* intro styles start */
 .intro{
 	height: 100vh;
+	background-size: cover;
+}
+
+.intro-title{
+	color: white;
+	position: absolute;
+	font-size: 72px;
+	font-weight: 400;
+	line-height: 86px;
+	top: 259px;
+	left: 220px;
+	max-width: 656px;
+}
+
+.intro-op{
+	color: #999999;
+	position: absolute;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	max-width: 615px;
+	top: 600px;
+	left: 220px;
+}
+
+.man{
+	position: absolute;
+	top: 296px;
+	right: 260px;
+}
+
+.line{
+	position: absolute;
+	top: 486px;
+	left: 437px;
+}
+
+.btn-em a{
+	background-color: #57B8FF;
+	color: white;
+	text-decoration: none;
+	padding: 21px 34px;
+	line-height: 28px;
+	font-size: 18px;
+	position: absolute;
+	top: 749px;
+	left: 220px;
+}
+
+.btn-em a:hover{
+	background-color: white;
+	color: #57B8FF;
+	padding: 23px 36px;
+	font-size: 20px;
+	transition: all 0.3s ease;
+	left: 210px;
+}
+
+.team{
+	position: absolute;
+	list-style-type: none;
+	top: 769px;
+	left: 480px;
+}
+.team-link{
+	color:white;
+	line-height: 28px;
+	font-size: 18px;
+	text-decoration: none;
+}
+.team-link:hover{
+	color: #57B8FF;
+	font-size: 20px;
+	transition: all 0.3s ease;
+}
+
+.fire{
+	position: absolute;
+	top: 275px;
+	left: 220px;
+}
+
+.fire-op{
+	position: absolute;
+	color:#57B8FF;
+	top: 265px;
+	left: 260px;
 }
 /* intro styles end */
