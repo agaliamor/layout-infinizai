@@ -27,11 +27,10 @@ body{
 	background-image: linear-gradient(
 		to right,
 		#000 0%,
-		#000 55.97%,
+		#000 56.3%,
 		#57B8FF 50%,
 		#57B8FF 100%
 	);
-	height: 100vh;
 	
 	font-family: 'Orbitron';
 	font-style: normal;
@@ -46,17 +45,22 @@ body{
 	margin: 0 auto;
 }
 
+/* header styles start */
 .header{
 	background-size: cover;
 }
 
-.header-wrapper{
-
-}
-
 .header-item{
 	margin-right: 60px;
-	
+}
+
+#link{
+	color:#FAC422;
+}
+#link:hover{
+	color: white;
+	font-size: 18px;
+	transition: all 0.3s ease;
 }
 
 .header-item:last-child{
@@ -88,22 +92,23 @@ body{
 	right: 60px;
 }
 
+.badge{
+	background-color: #fff;
+	color: #141820;
+	padding: 6px 6px;
+	font-size: 11px;
+	border-radius: 9px;
+	line-height: 8px;
+	position: absolute;
+	top: -9px;
+	right: -20px;
+}
+
 .basket{
 	position: absolute;
 	top: 35px;
 	right: 278.61px;	
 }
-
-.badge{
-	background-color: #fff;
-	color: #141820;
-	padding: 6px 6px;
-	text-align: center;
-	font-size: 11px;
-	border-radius: 9px;
-	line-height: 8px;
-}
-
 
 .header-link{
 	font-size: 16px;
@@ -111,3 +116,49 @@ body{
 	color: white;
 	text-decoration: none;
 }
+.header-link:hover, .header-link:focus, .header-link:active{
+	color: #FAC422;
+	font-size: 18px;
+	transition: all 0.3s ease;
+}
+/* header styles end */
+
+/* social styles start */
+.social-list{
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+	writing-mode: tb-rl;
+	transform: rotate(180deg);
+	font-size: 11px;
+	position: absolute;
+	left: -40px;
+	top: 319px;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+
+.social-list a{
+	display:inline-block;
+  padding: 49px;
+}
+
+.social-link{
+	text-decoration: none;
+	color: #80858F;
+}
+.social-link:hover{
+	color: white;
+}
+.social-item:hover{
+	font-size: 13px;
+	transition: all 0.3s ease;
+}
+/* social styles end */
+
+
+/* intro styles start */
+.intro{
+	height: 100vh;
+}
+/* intro styles end */
